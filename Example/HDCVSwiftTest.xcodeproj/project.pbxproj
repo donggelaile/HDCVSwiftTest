@@ -8,6 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		03B3975DB257A3FD28CB6B0F /* Pods_HDCVSwiftTest_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9605419E597DE35BE6C85DA1 /* Pods_HDCVSwiftTest_Example.framework */; };
+		28214612236A66EF007687AD /* DemoBaseSectionFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28214611236A66EF007687AD /* DemoBaseSectionFooter.swift */; };
+		286C58BD2368579E0054231A /* ViewControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286C58BC2368579E0054231A /* ViewControllerCell.swift */; };
+		286C58C2236939EA0054231A /* Demo1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286C58C1236939EA0054231A /* Demo1.swift */; };
+		286C58C823693B0B0054231A /* DemoBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286C58C723693B0B0054231A /* DemoBaseCell.swift */; };
+		286C58CA23693B3E0054231A /* DemoBaseCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286C58C923693B3E0054231A /* DemoBaseCellModel.swift */; };
+		286C58CD236969360054231A /* DemoBaseSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286C58CC236969360054231A /* DemoBaseSectionHeader.swift */; };
+		286C58CF23696D0E0054231A /* DemobaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286C58CE23696D0E0054231A /* DemobaseVC.swift */; };
+		286C58D1236970DB0054231A /* HDTestGlobal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286C58D0236970DB0054231A /* HDTestGlobal.swift */; };
+		28A7DEE4236A6871009E3EDD /* DemobaseSectionDecoration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A7DEE3236A6871009E3EDD /* DemobaseSectionDecoration.swift */; };
+		28A7DEE7236A6B94009E3EDD /* Demo2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A7DEE6236A6B94009E3EDD /* Demo2.swift */; };
+		28A7DEEA236A7664009E3EDD /* Demo3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A7DEE9236A7664009E3EDD /* Demo3.swift */; };
+		28A7DEEE236A7835009E3EDD /* Demo3Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A7DEED236A7835009E3EDD /* Demo3Cell.swift */; };
+		28A7DEF1236AA429009E3EDD /* Demo4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A7DEF0236AA429009E3EDD /* Demo4.swift */; };
+		28A7DEF4236AA727009E3EDD /* Demo5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A7DEF3236AA727009E3EDD /* Demo5.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -29,8 +43,21 @@
 
 /* Begin PBXFileReference section */
 		0C04900D7817D9ED175429EF /* Pods_HDCVSwiftTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HDCVSwiftTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		18D398750A773CA57FC35409 /* HDCVSwiftTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HDCVSwiftTest.podspec; path = ../HDCVSwiftTest.podspec; sourceTree = "<group>"; };
-		41510523B875DE55A11721A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		28214611236A66EF007687AD /* DemoBaseSectionFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoBaseSectionFooter.swift; sourceTree = "<group>"; };
+		286C58BB236852DF0054231A /* OC_Bridge_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OC_Bridge_Header.h; sourceTree = "<group>"; };
+		286C58BC2368579E0054231A /* ViewControllerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCell.swift; sourceTree = "<group>"; };
+		286C58C1236939EA0054231A /* Demo1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo1.swift; sourceTree = "<group>"; };
+		286C58C723693B0B0054231A /* DemoBaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoBaseCell.swift; sourceTree = "<group>"; };
+		286C58C923693B3E0054231A /* DemoBaseCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoBaseCellModel.swift; sourceTree = "<group>"; };
+		286C58CC236969360054231A /* DemoBaseSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoBaseSectionHeader.swift; sourceTree = "<group>"; };
+		286C58CE23696D0E0054231A /* DemobaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemobaseVC.swift; sourceTree = "<group>"; };
+		286C58D0236970DB0054231A /* HDTestGlobal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDTestGlobal.swift; sourceTree = "<group>"; };
+		28A7DEE3236A6871009E3EDD /* DemobaseSectionDecoration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemobaseSectionDecoration.swift; sourceTree = "<group>"; };
+		28A7DEE6236A6B94009E3EDD /* Demo2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo2.swift; sourceTree = "<group>"; };
+		28A7DEE9236A7664009E3EDD /* Demo3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo3.swift; sourceTree = "<group>"; };
+		28A7DEED236A7835009E3EDD /* Demo3Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo3Cell.swift; sourceTree = "<group>"; };
+		28A7DEF0236AA429009E3EDD /* Demo4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo4.swift; sourceTree = "<group>"; };
+		28A7DEF3236AA727009E3EDD /* Demo5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo5.swift; sourceTree = "<group>"; };
 		461427DE58AF94553FEFAE60 /* Pods-HDCVSwiftTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDCVSwiftTest_Example.release.xcconfig"; path = "Target Support Files/Pods-HDCVSwiftTest_Example/Pods-HDCVSwiftTest_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* HDCVSwiftTest_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HDCVSwiftTest_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,7 +73,6 @@
 		7E554303D0A50DBB5DE41CF2 /* Pods-HDCVSwiftTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDCVSwiftTest_Tests.release.xcconfig"; path = "Target Support Files/Pods-HDCVSwiftTest_Tests/Pods-HDCVSwiftTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7EB1D12E4EFCB60C33291201 /* Pods-HDCVSwiftTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDCVSwiftTest_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HDCVSwiftTest_Tests/Pods-HDCVSwiftTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9605419E597DE35BE6C85DA1 /* Pods_HDCVSwiftTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HDCVSwiftTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BCDC857AAEF01942EF6D85AC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +95,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		286C58BE236916CD0054231A /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				286C58CE23696D0E0054231A /* DemobaseVC.swift */,
+				286C58C723693B0B0054231A /* DemoBaseCell.swift */,
+				286C58C923693B3E0054231A /* DemoBaseCellModel.swift */,
+				286C58CC236969360054231A /* DemoBaseSectionHeader.swift */,
+				28214611236A66EF007687AD /* DemoBaseSectionFooter.swift */,
+				28A7DEE3236A6871009E3EDD /* DemobaseSectionDecoration.swift */,
+				286C58BF236916D60054231A /* Demo1 */,
+				28A7DEE5236A6B64009E3EDD /* Demo2 */,
+				28A7DEE8236A7655009E3EDD /* Demo3 */,
+				28A7DEEF236AA3FB009E3EDD /* Demo4 */,
+				28A7DEF2236AA715009E3EDD /* Demo5 */,
+			);
+			path = Demos;
+			sourceTree = "<group>";
+		};
+		286C58BF236916D60054231A /* Demo1 */ = {
+			isa = PBXGroup;
+			children = (
+				286C58C1236939EA0054231A /* Demo1.swift */,
+			);
+			path = Demo1;
+			sourceTree = "<group>";
+		};
+		28A7DEE5236A6B64009E3EDD /* Demo2 */ = {
+			isa = PBXGroup;
+			children = (
+				28A7DEE6236A6B94009E3EDD /* Demo2.swift */,
+			);
+			path = Demo2;
+			sourceTree = "<group>";
+		};
+		28A7DEE8236A7655009E3EDD /* Demo3 */ = {
+			isa = PBXGroup;
+			children = (
+				28A7DEE9236A7664009E3EDD /* Demo3.swift */,
+				28A7DEED236A7835009E3EDD /* Demo3Cell.swift */,
+			);
+			path = Demo3;
+			sourceTree = "<group>";
+		};
+		28A7DEEF236AA3FB009E3EDD /* Demo4 */ = {
+			isa = PBXGroup;
+			children = (
+				28A7DEF0236AA429009E3EDD /* Demo4.swift */,
+			);
+			path = Demo4;
+			sourceTree = "<group>";
+		};
+		28A7DEF2236AA715009E3EDD /* Demo5 */ = {
+			isa = PBXGroup;
+			children = (
+				28A7DEF3236AA727009E3EDD /* Demo5.swift */,
+			);
+			path = Demo5;
+			sourceTree = "<group>";
+		};
 		5330D9FC140813B1CBB777E0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -77,14 +162,12 @@
 				7EB1D12E4EFCB60C33291201 /* Pods-HDCVSwiftTest_Tests.debug.xcconfig */,
 				7E554303D0A50DBB5DE41CF2 /* Pods-HDCVSwiftTest_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for HDCVSwiftTest */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
@@ -107,6 +190,10 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				286C58BC2368579E0054231A /* ViewControllerCell.swift */,
+				286C58D0236970DB0054231A /* HDTestGlobal.swift */,
+				286C58BE236916CD0054231A /* Demos */,
+				286C58BB236852DF0054231A /* OC_Bridge_Header.h */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -139,16 +226,6 @@
 				607FACEA1AFB9204008FA782 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
-			isa = PBXGroup;
-			children = (
-				18D398750A773CA57FC35409 /* HDCVSwiftTest.podspec */,
-				41510523B875DE55A11721A0 /* README.md */,
-				BCDC857AAEF01942EF6D85AC /* LICENSE */,
-			);
-			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
 		CFE8CE817EDBEE34A158DA87 /* Frameworks */ = {
@@ -227,6 +304,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -269,11 +347,19 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-HDCVSwiftTest_Example/Pods-HDCVSwiftTest_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/HDCVSwiftTest/HDCVSwiftTest.framework",
+				"${BUILT_PRODUCTS_DIR}/HDCollectionView/HDCollectionView.framework",
+				"${BUILT_PRODUCTS_DIR}/HDListViewDiffer/HDListViewDiffer.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Yoga/yoga.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HDCVSwiftTest.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HDCollectionView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HDListViewDiffer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -331,8 +417,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28A7DEF4236AA727009E3EDD /* Demo5.swift in Sources */,
+				286C58C2236939EA0054231A /* Demo1.swift in Sources */,
+				28A7DEEA236A7664009E3EDD /* Demo3.swift in Sources */,
+				28A7DEE7236A6B94009E3EDD /* Demo2.swift in Sources */,
+				286C58BD2368579E0054231A /* ViewControllerCell.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				286C58CA23693B3E0054231A /* DemoBaseCellModel.swift in Sources */,
+				286C58C823693B0B0054231A /* DemoBaseCell.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				28214612236A66EF007687AD /* DemoBaseSectionFooter.swift in Sources */,
+				286C58CF23696D0E0054231A /* DemobaseVC.swift in Sources */,
+				28A7DEE4236A6871009E3EDD /* DemobaseSectionDecoration.swift in Sources */,
+				286C58D1236970DB0054231A /* HDTestGlobal.swift in Sources */,
+				28A7DEF1236AA429009E3EDD /* Demo4.swift in Sources */,
+				28A7DEEE236A7835009E3EDD /* Demo3Cell.swift in Sources */,
+				286C58CD236969360054231A /* DemoBaseSectionHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,13 +578,16 @@
 			baseConfigurationReference = 7A656CB240D17744E222F437 /* Pods-HDCVSwiftTest_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HDCVSwiftTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/chenhaodong/Desktop/all/个人/个人代码/HDCVSwiftTest/Example/HDCVSwiftTest/OC_Bridge_Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				SYSTEM_HEADER_SEARCH_PATHS = "$SRCROOT/**";
 			};
 			name = Debug;
 		};
@@ -493,13 +596,16 @@
 			baseConfigurationReference = 461427DE58AF94553FEFAE60 /* Pods-HDCVSwiftTest_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HDCVSwiftTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/chenhaodong/Desktop/all/个人/个人代码/HDCVSwiftTest/Example/HDCVSwiftTest/OC_Bridge_Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				SYSTEM_HEADER_SEARCH_PATHS = "$SRCROOT/**";
 			};
 			name = Release;
 		};
@@ -507,6 +613,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7EB1D12E4EFCB60C33291201 /* Pods-HDCVSwiftTest_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +636,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7E554303D0A50DBB5DE41CF2 /* Pods-HDCVSwiftTest_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
